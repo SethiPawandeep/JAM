@@ -1,0 +1,49 @@
+/*
+visible xs
+visible sm
+visible md
+visible lg
+
+responsive image
+*/
+
+@media(min-width: 1200px) {
+    /*
+    .visible-lg {
+            
+    }
+*/
+    #main #story #image {
+        position: relative;
+        background: url('../img/Shiksha%20%20image%20must.jpg') no-repeat;
+        float: left;
+        height: 350px;
+        width: 60%;
+    }
+    #main #story #image #textOverImg {
+        position: absolute;
+        font-family: samarkan;
+        top: 10px;
+        right: 10px;
+        font-size: 1.7em;
+        color: white;
+    }
+}
+
+@media(min-width: 992px) and (max-width: 1199px) {
+    #main #story #image {
+        position: relative;
+        background: url('../img/Shiksha-790px.jpg') no-repeat;
+        float: left;
+        height: 350px;
+        width: 60%;
+    }
+    #main #story #image #textOverImg {
+        position: absolute;
+        font-family: samarkan;
+        top: 10px;
+        right: 10px;
+        font-size: 1.7em;
+        color: white;
+    }
+}

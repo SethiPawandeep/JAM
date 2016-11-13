@@ -1,0 +1,100 @@
+@font-face {
+    font-family: samarkan;
+    src: url('../fonts/SAMAN__.TTF');
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*Header */
+#header {
+    margin-bottom: 0;
+}
+
+#header #logo {
+    font-family: 'Indie Flower', cursive;
+}
+
+#header #logo h1 {
+    margin-left: 30px;
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+#nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#nav ul a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    /*    font-family: 'uni-sans';*/
+    font-family: monospace;
+    font-size: 1.2em;
+    padding: 0;
+}
+
+#nav ul a li {
+    box-sizing: border-box;
+    padding: 7px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display: inline;
+    border-right: 1px solid black;
+    margin: 0;
+    transition: .1s ease;
+}
+
+#nav ul a li:hover {
+    border-bottom: 3px solid black;
+}
+
+
+/*Main*/
+/*
+
+#main #story #image {
+    position: relative;
+    background: url('../img/Shiksha%20%20image%20must.jpg') no-repeat;
+    float: left;
+    height: 350px;
+    width: 60%;
+}
+
+#main #story #image #textOverImg {
+    position: absolute;
+    font-family: samarkan;
+    top: 10px;
+    right: 10px;
+    font-size: 1.7em;
+    color: white;
+}
+*/
+
+#main #story #content {
+    /*        position: relative;*/
+    background: maroon;
+    /*Use vibrant for dominant color*/
+    width: auto;
+    /*        float: left;*/
+    height: 350px;
+    /*    top: 10px;*/
+    /*    right: 50px;*/
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #header #logo h1 {
+        font-size: 2.5em;
+    }
+    
+}
