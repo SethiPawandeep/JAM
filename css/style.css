@@ -78,7 +78,9 @@ Header
 /*
 Main
 */
-
+#main {
+    clear: both;
+}
 #main #story {
     margin-bottom: 10px;
 }

@@ -47,3 +47,13 @@ responsive image
         color: white;
     }
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #main #story #image {
+        position: relative;
+        background: url('../img/Shiksha-sm.jpg') no-repeat;
+        float: left;
+        height: 350px;
+        width: 60%;
+    }
+}
