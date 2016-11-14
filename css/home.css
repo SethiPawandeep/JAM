@@ -2,6 +2,7 @@
     box-sizing: border-box;
     border: 1px solid black;
     padding-left: 5px;
+    padding-right: 5px;
 }
 
 #main #current-issue div #cover-image {
@@ -9,18 +10,25 @@
     margin-right: 5px;
 }
 
+#main #current-issue div #about-issue p {
+    text-align: justify;
+    margin-top: 0px;
+}
+
 #main #current-issue div #buy-now-button {
     float: left;
     padding: 15px;
     border: 2px solid #E3F2FD;
     border-radius: 10%;
-    margin-top: 10px;
+    margin-top: 5px;
+    text-align: center;
     transition: .5s ease;
 }
 
 #main #current-issue div #buy-now-button:hover {
     background: #42A5F5;
 }
+
 @media(min-width: 1200px) {
     /*
     .visible-lg {
@@ -59,6 +67,12 @@
         right: 10px;
         font-size: 1.7em;
         color: white;
+    }
+    #main #current-issue div {
+/*        clear: both;*/
+    }
+    #main #current-issue div h2 {
+        text-align: center;
     }
 }
 
