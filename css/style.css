@@ -166,10 +166,10 @@ Media Queries
     }
     #header #logo h1 {
         margin-top: 3px;
-        margin-bottom: 5px;
+        margin-bottom: 2px;
         
         padding: 0;
-        padding-bottom: 5px;
+/*        padding-bottom: 5px;*/
         font-size: 3.3vw;
     }
     #nav ul a li {
@@ -177,7 +177,9 @@ Media Queries
         padding-left: 4.1vw;
         padding-right: 4.1vw;
     }
-    
+    #main {
+        margin-top: 0px;
+    }
     /*
         
 #nav ul {

@@ -1,12 +1,26 @@
-/*
-visible xs
-visible sm
-visible md
-visible lg
+#main #current-issue {
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding-left: 5px;
+}
 
-responsive image
-*/
+#main #current-issue div #cover-image {
+    height: 300px;
+    margin-right: 5px;
+}
 
+#main #current-issue div #buy-now-button {
+    float: left;
+    padding: 15px;
+    border: 2px solid #E3F2FD;
+    border-radius: 10%;
+    margin-top: 10px;
+    transition: .5s ease;
+}
+
+#main #current-issue div #buy-now-button:hover {
+    background: #42A5F5;
+}
 @media(min-width: 1200px) {
     /*
     .visible-lg {
