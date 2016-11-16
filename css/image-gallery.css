@@ -1,0 +1,19 @@
+.hidden {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: .5;
+    height: 100vh;
+    z-index: 2;
+    display: none;
+    
+}
+
+.issue-cover {
+   width: 200px; 
+    height: 300px;
+}
+
+.img-over {
+    width: 100vw;
+}

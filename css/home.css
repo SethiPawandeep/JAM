@@ -1,4 +1,30 @@
-#main #current-issue {
+div.read-img-show {
+    z-index: -1;
+    position: fixed;
+    display: none;
+    height: auto;
+    width: 100vw;
+    background: grey;
+}
+
+.img-read-now {
+    width: 100vw;
+    height: auto;
+}
+
+#main {
+    position: relative;
+}
+
+#main #featuring div #feature-image {
+    height: 300px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#main #current-issue,
+#featuring {
+    position: relative;
     box-sizing: border-box;
     border: 1px solid black;
     padding-left: 5px;
@@ -8,25 +34,20 @@
 #main #current-issue div #cover-image {
     height: 300px;
     margin-right: 5px;
+    margin-top: 5px;
 }
 
-#main #current-issue div #about-issue p {
+#main #current-issue div #issue h2,
+#main #featuring div #feature-text h2 {
+    margin: 2px;
+    padding-bottom: 2px;
+    /*    padding-left: 10px;*/
+}
+
+#main #current-issue div #about-issue {
     text-align: justify;
     margin-top: 0px;
-}
-
-#main #current-issue div #buy-now-button {
-    float: left;
-    padding: 15px;
-    border: 2px solid #E3F2FD;
-    border-radius: 10%;
-    margin-top: 5px;
-    text-align: center;
-    transition: .5s ease;
-}
-
-#main #current-issue div #buy-now-button:hover {
-    background: #42A5F5;
+    padding-top: 0;
 }
 
 @media(min-width: 1200px) {
@@ -35,6 +56,11 @@
             
     }
 */
+    div.btn-blue-glow {
+        position: absolute;
+        right: 2.1vw;
+        bottom: 10px;
+    }
     #main #story #image {
         position: relative;
         background: url('../img/Shiksha%20%20image%20must.jpg') no-repeat;
@@ -68,11 +94,11 @@
         font-size: 1.7em;
         color: white;
     }
-    #main #current-issue div {
-/*        clear: both;*/
-    }
     #main #current-issue div h2 {
         text-align: center;
+    }
+    #main #current-issue div #cover-image {
+        margin-top: 10px;
     }
 }
 
