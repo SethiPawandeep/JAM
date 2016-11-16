@@ -1,10 +1,6 @@
 div.read-img-show {
-    z-index: -1;
-    position: fixed;
-    display: none;
     height: auto;
     width: 100vw;
-    background: grey;
 }
 
 .img-read-now {
@@ -16,14 +12,30 @@ div.read-img-show {
     position: relative;
 }
 
-#main #featuring div #feature-image {
+.img-read-now-2 {
+    width: 49vw;
+    margin-right: 0;
+    margin-left: 0;
+    height: auto;
+}
+
+#main #story #content {
+    padding-top: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    color: #FFF;
+    font-size: 1.1em
+}
+
+div .feature-image {
     height: 300px;
     margin-right: 5px;
     margin-top: 5px;
 }
 
 #main #current-issue,
-#featuring {
+#main #featuring,
+#main #best-of-jam {
     position: relative;
     box-sizing: border-box;
     border: 1px solid black;
@@ -31,20 +43,27 @@ div.read-img-show {
     padding-right: 5px;
 }
 
-#main #current-issue div #cover-image {
+#main #current-issue div #cover-image,
+div .feature-image {
     height: 300px;
     margin-right: 5px;
     margin-top: 5px;
 }
 
 #main #current-issue div #issue h2,
-#main #featuring div #feature-text h2 {
+div .feature-head h2 {
     margin: 2px;
     padding-bottom: 2px;
     /*    padding-left: 10px;*/
 }
 
 #main #current-issue div #about-issue {
+    text-align: justify;
+    margin-top: 0px;
+    padding-top: 0;
+}
+
+div .feature-text {
     text-align: justify;
     margin-top: 0px;
     padding-top: 0;
@@ -67,6 +86,7 @@ div.read-img-show {
         float: left;
         height: 350px;
         width: 60%;
+        margin-right: 10px;
     }
     #main #story #image #textOverImg {
         position: absolute;
@@ -85,6 +105,7 @@ div.read-img-show {
         float: left;
         height: 350px;
         width: 60%;
+        margin-right: 10px;
     }
     #main #story #image #textOverImg {
         position: absolute;
@@ -94,10 +115,13 @@ div.read-img-show {
         font-size: 1.7em;
         color: white;
     }
-    #main #current-issue div h2 {
+    #main #current-issue div h2,
+    #main #featuring div h2,
+    #main #best-of-jam div h2 {
         text-align: center;
     }
-    #main #current-issue div #cover-image {
+    #main #current-issue div #cover-image,
+    div .feature-image {
         margin-top: 10px;
     }
 }
@@ -109,5 +133,6 @@ div.read-img-show {
         float: left;
         height: 350px;
         width: 60%;
+        margin-right: 10px;
     }
 }

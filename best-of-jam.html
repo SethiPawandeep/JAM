@@ -2,14 +2,20 @@
 <html>
 
 <head>
-    <title>JAM | Issues</title>
+    <title>JAM | Home</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
-    <link rel="stylesheet" type="text/css" href="css/image-gallery.css">
+    <script>
+        function read() {
+            document.querySelector('.read-img-show').style.display = 'block';
+            document.querySelector('.read-img-show').style.zIndex = '3';
+            //            document.querySelector('.read-img-show').style.zIndex: '2';
+        }
+    </script>
 </head>
 
 <body>
@@ -30,7 +36,7 @@
                 <a href="#" class="thisTime">
                     <li>This Time</li>
                 </a>
-                <a href="#" class="issues">
+                <a href="issues.html" class="issues">
                     <li>Issues</li>
                 </a>
                 <a href="#" class="about">
@@ -39,38 +45,12 @@
             </ul>
         </div>
     </div>
-
     <div id="main">
-        <div class="hidden">
-        <div class="col-lg-2"></div>
-        <div class="col-lg-10 img-over"></div>
-        <div class="col-lg-2"></div>
-        </div>
-        <div class="img-gallery">
-        
+        <div  class="read-img-show">
+            <img src="img/Jam%2010%20Vipulda-1.jpg" class="img-read-now-2">
+            <img src="img/Jam%2010%20Vipulda-2.jpg" class="img-read-now-2">
         </div>
     </div>
-    <div id="footer">
-        <div class="col-lg-2 col-md-2 col-sm-2 footerLinks">
-            <a class="a-style-none" href="index.html">Home</a>
-            <br/>This Time
-            <br/>Issues
-            <br/>About
-            <br/>
-
-        </div>
-
-        <div onclick="location.href='http://facebook.com/JamJustAnotherMagazine'" class="social">
-            <img src="img/facebook-icon.png">
-            <span>/JamJustAnotherMagazine</span>
-        </div>
-    </div>
-
-    
-    <script src="js/script.js">
-    </script>
-    <script src="js/image-gallery.js">
-    </script>
 </body>
 
 </html>

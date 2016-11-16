@@ -6,12 +6,12 @@
     height: 100vh;
     z-index: 2;
     display: none;
-    
 }
 
 .issue-cover {
-   width: 200px; 
+    width: 200px;
     height: 300px;
+    margin-bottom: 20px;
 }
 
 .img-over {

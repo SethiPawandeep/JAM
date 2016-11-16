@@ -6,16 +6,18 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+<!--    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">-->
     <link rel="stylesheet" type="text/css" href="css/grid.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
+    <!--
         <script>
         function read () {
             document.querySelector('.read-img-show').style.display =  'block';
             document.querySelector('.read-img-show').style.zIndex = '3';
-//            document.querySelector('.read-img-show').style.zIndex: '2';
+            document.querySelector('.read-img-show').style.zIndex: '2';
         }
     </script>
+-->
 </head>
 
 <body>
@@ -46,33 +48,54 @@
         </div>
     </div>
     <div id="main">
-        <div class="read-img-show">
-            <img src="img/Sarcasm%20Final%20Final%20Final.jpg" class="img-read-now">
-        </div>
+
         <div id="story">
             <div id="image">
                 <div id="textOverImg">Shiksha
                     <br/><span>Ek Pehel</span></div>
             </div>
             <div id="content">
-                <!--            random text-->
+                This edition, JAM decided that our readers should get to know about Shiksha.
+                <br/> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus euismod bibendum malesuada. Proin luctus sit amet lorem a imperdiet. Nunc vestibulum neque at elementum tincidunt. Etiam pharetra sapien sit amet nulla iaculis, vitae blandit ex semper. Ut et aliquam sapien, id rutrum enim. Pellentesque sollicitudin urna ac quam lobortis, at maximus velit ultricies. Aliquam a enim sed nulla tristique ullamcorper.
+
+
             </div>
         </div>
         <div id="best-of-jam" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-            Best of JAM
+            <div>
+                <div class="col-md-2"></div>
+                <div class="pull-left">
+                    <img src="img/Jam%2010%20Vipulda-1.jpg" class="feature-image">
+                </div>
+                <div class="col-md-3"></div>
+                <div class="col-md-12" class="feature-head">
+                    <h2>Best of JAM |<br/> Kalki Origins</h2>
+                </div>
+                <div class="col-md-12" class="feature-text">
+                    Immerse yourself in the enticing story of Vishnu's 10th avatar.
+                </div>
+                <div class="col-md-1"></div>
+                <div class="col-md-10 col-lg-4 btn-blue-glow read" onclick="location.href='best-of-jam.html'">
+                    Read!
+                </div>
+                <div class="col-md-1"></div>
+            </div>
         </div>
         <div id="featuring" class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
             <div>
-                <div id="col-md-3"></div>
+                <div class="col-md-2"></div>
                 <div class="pull-left">
-                    <img src="img/Sarcasm%20Final%20Final%20Final%20-%20half.jpg" id="feature-image">
+                    <img src="img/Sarcasm%20Final%20Final%20Final%20-%20half.jpg" class="feature-image">
                 </div>
-                <div id="col-md-3"></div>
-                <div class="col-md-12" id="feature-text">
+                <div class="col-md-3"></div>
+                <div class="col-md-12" class="feature-head">
                     <h2>Editor's Pick |<br/> Star-casm</h2>
                 </div>
+                <div class="col-md-12" class="feature-text">
+                    Presenting you the Editor's pick for JAM 12. Buy now to read the whole magazine.
+                </div>
                 <div class="col-md-1"></div>
-                <div class="col-md-10 col-lg-4 btn-blue-glow read" onclick="read();">
+                <div class="col-md-10 col-lg-4 btn-blue-glow read" onclick="location.href='featuring.html'">
                     Read!
                 </div>
                 <div class="col-md-1"></div>
@@ -80,7 +103,7 @@
         </div>
         <div id="current-issue" class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <div>
-                <div class="col-md-3"></div>
+                <div class="col-md-2"></div>
                 <div class="pull-left" id="cover">
                     <img src="img/cover.jpg" id="cover-image">
                 </div>
@@ -88,7 +111,7 @@
                 <div class="col-md-12" id="issue">
                     <h2>Jam 12 |<br/> Transition</h2>
                 </div>
-                <div class="col-md-12" id="aboutIssue">
+                <div class="col-md-12" id="about-issue">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dapibus efficitur nisi.
                 </div>
                 <div class="col-md-1"></div>
@@ -102,12 +125,17 @@
 
     <div id="footer">
         <div class="col-lg-2 col-md-2 col-sm-2 footerLinks">
-            Home
+            <a class="a-style-none" href="index.html">Home</a>
             <br/>This Time
-            <br/>Issues
+            <br/><a class="a-style-none" href="issues.html">Issues</a>
             <br/>About
             <br/>
 
+        </div>
+
+        <div onclick="location.href='http://facebook.com/JamJustAnotherMagazine'" class="social">
+            <img src="img/facebook-icon.png">
+            <span>/JamJustAnotherMagazine</span>
         </div>
     </div>
 
