@@ -1,10 +1,21 @@
 div.read-img-show {
     height: auto;
     width: 100vw;
+    margin-left: 0;
+}
+
+#main #story #image {
+    position: relative;
+    background: url('../img/Shiksha-sm.jpg') no-repeat;
+    float: left;
+    height: 340px;
+    width: 60%;
+    margin-right: 10px;
 }
 
 .img-read-now {
     width: 100vw;
+    margin-left: 0;
     height: auto;
 }
 
@@ -13,15 +24,15 @@ div.read-img-show {
 }
 
 .img-read-now-2 {
-    width: 49vw;
+    width: 47vw;
     margin-right: 0;
     margin-left: 0;
     height: auto;
 }
 
 #main #story #content {
-    padding-top: 10px;
-    padding-right: 10px;
+    /*    padding-top: 10px;*/
+    /*    padding-right: 10px;*/
     text-align: justify;
     color: #FFF;
     font-size: 1.1em
@@ -39,8 +50,8 @@ div .feature-image {
     position: relative;
     box-sizing: border-box;
     border: 1px solid black;
-    padding-left: 5px;
-    padding-right: 5px;
+/*    padding-left: 5px;*/
+/*    padding-right: 5px;*/
 }
 
 #main #current-issue div #cover-image,
@@ -63,11 +74,29 @@ div .feature-head h2 {
     padding-top: 0;
 }
 
+#main div {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 div .feature-text {
     text-align: justify;
     margin-top: 0px;
     padding-top: 0;
+    padding-left: 5px;
+    margin-left: 5px;
+    padding-right: 5px;
 }
+
+
+/*
+#main #story {
+    margin-right: 0;
+    margin-left: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+*/
 
 @media(min-width: 1200px) {
     /*
@@ -84,7 +113,7 @@ div .feature-text {
         position: relative;
         background: url('../img/Shiksha%20%20image%20must.jpg') no-repeat;
         float: left;
-        height: 350px;
+        height: 340px;
         width: 60%;
         margin-right: 10px;
     }
@@ -103,7 +132,7 @@ div .feature-text {
         position: relative;
         background: url('../img/Shiksha-790px.jpg') no-repeat;
         float: left;
-        height: 350px;
+        height: 340px;
         width: 60%;
         margin-right: 10px;
     }
@@ -131,8 +160,18 @@ div .feature-text {
         position: relative;
         background: url('../img/Shiksha-sm.jpg') no-repeat;
         float: left;
-        height: 350px;
+        height: 340px;
         width: 60%;
         margin-right: 10px;
+    }
+    #main #current-issue div #cover-image,
+    div .feature-image {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    #footer {
+        margin-top: 940px;
     }
 }
