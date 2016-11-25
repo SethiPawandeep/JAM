@@ -2,6 +2,27 @@
 Basic styles
 */
 
+::-webkit-input-placeholder {
+    color: black;
+}
+
+input[type=text] {
+    width: 98%;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #3CBC8D;
+    color: white;
+}
+
+/*
+input {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+*/
+
 #main img {
     float: left;
     margin-right: 10px;
